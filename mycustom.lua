@@ -1,52 +1,88 @@
 xplr.config.general.prompt.format = ">> "
-xplr.config.node_types.directory.meta.icon = "📁"
-xplr.config.node_types.file.meta.icon = "📜"
+xplr.config.node_types.directory.meta.icon = ""
+xplr.config.node_types.file.meta.icon = ""
 xplr.config.node_types.symlink.meta.icon = "🔗"
 xplr.config.node_types.mime_essence = {
 	text = {
 		plain = {
 			meta = { icon = "📄" },
 		},
+		markdown = {
+			meta = { icon = "" },
+		}
 	},
 	video = {
 		["*"] = {
-			meta = { icon = "📽" },
+			meta = { icon = "" },
 		},
 	},
 	image = {
 		["*"] = {
-			meta = { icon = "🌄" },
+			meta = { icon = "" },
 		},
 	},
 }
 xplr.config.node_types.extension = {
 	py = {
-		meta = { icon = "🐍" },
+		meta = { icon = "" },
 	},
 	hy = {
 		meta = { icon = "🐙" },
 	},
 	hs = {
-		meta = { icon = "λ" },
+		meta = { icon = "" },
 	},
 	rs = {
-		meta = { icon = "🦀" },
+		meta = { icon = "" },
 	},
 	lua = {
-		meta = { icon = "🌙" },
+		meta = { icon = "" },
 	},
 	lock = {
-		meta = { icon = "🔒" },
+		meta = { icon = "" },
 	},
 	zig = {
 		meta = { icon = "⚡" },
-	}
+	},
+	cpp = {
+		meta = { icon = "" },
+	},
+	c = {
+		meta = { icon = "" },
+	},
+	vim = {
+		meta = { icon = "" },
+	},
+	exe = {
+		meta = { icon = "" },
+	},
+	java = {
+		meta = { icon = "" },
+	},
+	js = {
+		meta = { icon = "" },
+	},
+	ts = {
+		meta = { icon = "" },
+	},
+	html = {
+		meta = { icon = "" },
+	},
+	apk = {
+		meta = { icon = "" },
+	},
+	rb = {
+		meta = { icon = "" },
+	},
 }
 xplr.config.node_types.special = {
 	["Cargo.toml"] = {
-		meta = { icon = "⚙" },
+		meta = { icon = "" },
 	},
 	PKGBUILD = {
-		meta = { icon = "🛠 "},
+		meta = { icon = "" },
+	},
+	Downloads = {
+		meta = { icon = "" },
 	},
 }
