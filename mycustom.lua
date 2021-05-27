@@ -27,11 +27,13 @@ xplr.config.node_types.extension = {
 	cpp = { meta = { icon = "" }, },
 	elm = { meta = { icon = "" }, },
 	exe = { meta = { icon = "" }, },
+	go = { meta = { icon = "" }, },
 	hs = { meta = { icon = "" }, },
 	html = { meta = { icon = "" }, },
-	hy = { meta = { icon = "🐙" }, },
+	hy = { meta = { icon = "" }, },
 	ini = { meta = { icon = "" }, },
 	java = { meta = { icon = "" }, },
+	jl = { meta = { icon = "" }, },
 	js = { meta = { icon = "" }, },
 	lock = { meta = { icon = "" }, },
 	lua = { meta = { icon = "" }, },
@@ -48,7 +50,10 @@ xplr.config.node_types.extension = {
 }
 xplr.config.node_types.special = {
 	Downloads = { meta = { icon = "" }, },
+	Pictures = { meta = { icon = "" }, },
 	PKGBUILD = { meta = { icon = "" }, },
+	Makefile = { meta = { icon = "" }, },
+	Work = { meta = { icon = "" }, },
 	[".config"] = { meta = { icon = "" }, },
 	["Cargo.toml"] = { meta = { icon = "" }, },
 }
