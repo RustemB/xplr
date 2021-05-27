@@ -25,6 +25,7 @@ xplr.config.node_types.extension = {
 	c = { meta = { icon = "" }, },
 	conf = { meta = { icon = "" }, },
 	cpp = { meta = { icon = "" }, },
+	dart = { meta = { icon = "" }, },
 	elm = { meta = { icon = "" }, },
 	exe = { meta = { icon = "" }, },
 	go = { meta = { icon = "" }, },
