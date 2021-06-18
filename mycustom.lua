@@ -54,3 +54,4 @@ xplr.config.node_types.special = {
     [".config"] = {meta = {icon = ""}},
     ["Cargo.toml"] = {meta = {icon = ""}}
 }
+xplr.config.general.disable_recover_mode = true
