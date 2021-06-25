@@ -1,4 +1,4 @@
-version = "0.14.2"
+version = "0.14.3"
 
 -- You need to define the script version for compatibility check.
 -- See https://github.com/sayanarijit/xplr/wiki/Upgrade-Guide.
