@@ -1,4 +1,4 @@
-version = "0.14.3"
+version = "0.14.4"
 
 -- You need to define the script version for compatibility check.
 -- See https://github.com/sayanarijit/xplr/wiki/Upgrade-Guide.
@@ -15,6 +15,9 @@ xplr.config.general.read_only = false
 
 ------ Recover mode
 xplr.config.general.disable_recover_mode = false
+
+------ Start FIFO
+xplr.config.general.start_fifo = nil
 
 ------ Prompt
 xplr.config.general.prompt.format = "❯ "
