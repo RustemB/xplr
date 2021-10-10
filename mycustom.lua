@@ -11,7 +11,9 @@ xplr.config.node_types.mime_essence = {
     image = {["*"] = {meta = {icon = ""}}},
     text = {
         markdown = {meta = {icon = ""}},
-        plain = {meta = {icon = "📄"}}
+        plain = {meta = {icon = ""}},
+        ['x-scss'] = {meta = {icon = ""}},
+        xml = {meta = {icon = "謹"}}
     },
     video = {["*"] = {meta = {icon = ""}}}
 }
@@ -49,9 +51,9 @@ xplr.config.node_types.special = {
     Downloads = {meta = {icon = ""}},
     Pictures = {meta = {icon = ""}},
     PKGBUILD = {meta = {icon = ""}},
+    LICENSE = {meta = {icon = ""}},
     Makefile = {meta = {icon = ""}},
     Work = {meta = {icon = ""}},
     [".config"] = {meta = {icon = ""}},
     ["Cargo.toml"] = {meta = {icon = ""}}
 }
-xplr.config.general.disable_recover_mode = true
